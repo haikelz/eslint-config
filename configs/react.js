@@ -4,7 +4,6 @@ import tseslint from "typescript-eslint";
 import { DIRNAME, IGNORES_LIST } from "../constants.js";
 
 export default tseslint.config({
-  name: "haikel/next",
   files: ["**/*.ts", "**/*.js", "**/*.tsx", "**/*.jsx"],
   rules: {
     "@typescript-eslint/no-empty-object-type": "off",
